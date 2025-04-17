@@ -16,9 +16,10 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              src="varsh.jpeg"
+              src="VARSHAN.jpeg"
               alt="Profile"
-              className="rounded-full w-48 h-48 object-cover border-4 border-blue-500 shadow-lg"
+              className="rounded-full w-50 h-50 object-cover object-center border-4 border-blue-500 shadow-lg"
+
             />
           </div>
           <div className="md:w-2/3">

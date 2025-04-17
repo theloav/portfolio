@@ -12,10 +12,25 @@ export default function Timeline() {
         transition={{ duration: 1 }}
         className="container mx-auto px-4"
       >
-        <h2 className="text-4xl font-bold text-center text-white mb-16">Experience & Education</h2>
-        
+        <h2 className="text-4xl font-bold text-center text-white mb-16">Experience, Education and Certifications</h2>
+
         <VerticalTimeline>
-          {/* Work Experience */}
+          {/* Experience */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid rgb(33, 150, 243)' }}
+            date="June 2024 - June 2024"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<Briefcase />}
+          >
+            <h3 className="vertical-timeline-element-title">Cybersecurity Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">NIELIT, Calicut</h4>
+            <p>
+              Managed project timelines, executed exploits using Metasploit, and collaborated with team to trace cyber attacks. Utilized Linux for tool visualization.
+            </p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -25,23 +40,9 @@ export default function Timeline() {
             icon={<Briefcase />}
           >
             <h3 className="vertical-timeline-element-title">Security Auditor Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">NTC Logistics India Private Limited</h4>
+            <h4 className="vertical-timeline-element-subtitle">NTC Logistics India Private Limited, Chennai</h4>
             <p>
-              Conducted firewall reviews, server security audits, and web application assessments
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            date="Nov 2023 - Jan 2024"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<Briefcase />}
-          >
-            <h3 className="vertical-timeline-element-title">Cybersecurity Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Google Cybersecurity</h4>
-            <p>
-              Developed security testing services and automated testing processes
+              Conducted firewall reviews, server security audits, and assessed web applications for vulnerabilities through penetration testing and code review.
             </p>
           </VerticalTimelineElement>
 
@@ -49,15 +50,56 @@ export default function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            date="2022 - Present"
+            date="2022 - 2026"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<GraduationCap />}
           >
             <h3 className="vertical-timeline-element-title">B.Tech in CSE Cybersecurity</h3>
-            <h4 className="vertical-timeline-element-subtitle">Vel Tech Rangarajan Dr.Sagunthala R&D Institute</h4>
+            <h4 className="vertical-timeline-element-subtitle">Vel Tech Rangarajan Dr.Sagunthala R&D Institute, Avadi</h4>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            date="2006 - 2021"
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            icon={<GraduationCap />}
+          >
+            <h3 className="vertical-timeline-element-title">Computer Science Student</h3>
+            <h4 className="vertical-timeline-element-subtitle">Shanthi Rani Matric Hr. Sec. School, Kallal</h4>
           </VerticalTimelineElement>
 
           {/* Certifications */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            date="2025"
+            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            icon={<Award />}
+          >
+            <h3 className="vertical-timeline-element-title">Certified Penetration Tester (CPT)</h3>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            date="2024"
+            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            icon={<Award />}
+          >
+            <h3 className="vertical-timeline-element-title">Windows Forensics with Belkasoft</h3>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            date="2024"
+            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            icon={<Award />}
+          >
+            <h3 className="vertical-timeline-element-title">Advanced Digital Forensics with Belkasoft</h3>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
