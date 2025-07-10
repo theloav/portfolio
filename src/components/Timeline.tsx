@@ -79,6 +79,15 @@ export default function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Certified Penetration Tester (CPT)</h3>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            date="2025"
+            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            icon={<Award />}
+          >
+            <h3 className="vertical-timeline-element-title">Junior Penetration Tester (eJPT)</h3>
+          </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
